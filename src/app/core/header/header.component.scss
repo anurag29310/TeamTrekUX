@@ -1,0 +1,50 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e90ff;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .header-left .btn-open-modal {
+    padding: 10px 20px;
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .header-left .btn-open-modal:hover {
+    background-color: #315f91;
+  }
+  
+  .header-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  
+  .header-right a:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  .header-right .active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  
